@@ -64,7 +64,7 @@ fun ColumnContent(modifier: Modifier = Modifier) {
         )
         Text(
             text = stringResource(R.string.paragraph1),
-            color = Color.Black,
+            coloBlack,
             fontSize = 20.sp,
             textAlign = TextAlign.Justify,
             modifier = modifier.padding(start = 16.dp, end = 16.dp),
